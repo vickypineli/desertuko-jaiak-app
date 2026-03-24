@@ -9,7 +9,7 @@ export default function PublicLayout() {
       </main>
 
       <footer className="page-layout__footer">
-        Desertuko Jai Batzordea © 2024
+        Desertuko Jai Batzordea ©
       </footer>
 
       <div className="page-layout__color-bar">

@@ -4,7 +4,7 @@
 
 .language-page {
   position: relative; // Añade esto
-  min-height: 100dvh;
+  max-height: 100dvh;
   width: 100%;
   overflow: hidden; // Evita scrolls fantasmas por el canvas
   display: flex;
@@ -22,7 +22,7 @@
   // sin que empuje hacia abajo
   justify-content: space-evenly; 
   
-  padding: 1rem; // Un poco menos de padding para pantallas pequeñas
+  padding: 0.5rem; // Un poco menos de padding para pantallas pequeñas
   text-align: center;
 }
 
