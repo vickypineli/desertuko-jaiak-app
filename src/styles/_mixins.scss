@@ -1,0 +1,19 @@
+// Mixins for reusable styles
+@use "variables" as *;
+
+// @mixin card {
+//   background: $color-card;
+//   border-radius: $radius-md;
+//   box-shadow: $shadow-sm;
+// }
+
+// @mixin tap-target {
+//   min-height: 44px;
+//   display: flex;
+//   align-items: center;
+// }
+
+@mixin page-padding {
+  padding: $space-md;
+  
+}

@@ -1,0 +1,82 @@
+{
+  "days": [
+    {
+      "id": "2026-06-17",
+      "date": "2026-06-17",
+      "label": "Miércoles",
+      "slug": "miercoles",
+      "events": [
+        { "time": "17:00 - 18:00", "title": "Bingo para mayores", "location": "Residencias", "category": "mayores" },
+        { "time": "18:00 - 20:00", "title": "Manualidades", "location": "Zona de la Ría", "category": "infantil" },
+        { "time": "18:00 - 20:00", "title": "Pintacaras", "location": "Plaza Roja", "category": "infantil" },
+        { "time": "18:00 - 20:00", "title": "Ludoteka", "location": "Plaza Roja", "category": "infantil" },
+        { "time": "18:00 - 20:00", "title": "Kayak", "location": "Zona de la Ría", "category": "deporteAcuatico" },
+        { "time": "18:00 - 20:00", "title": "Paddle Surf", "location": "Zona de la Ría", "category": "deporteAcuatico" },
+        { "time": "18:00 - 21:00", "title": "Barra cerveza artesanal Laugar", "location": "Zona de la Ría", "category": "bebidas" }
+      ]
+    },
+    {
+      "id": "2026-06-18",
+      "date": "2026-06-18",
+      "label": "Jueves",
+      "slug": "jueves",
+      "events": [
+        { "time": "19:00 - 20:00", "title": "Campeonato de dardos (1ª jornada)", "location": "Bar Albatross", "category": "juegos" },
+        { "time": "20:00 - 21:30", "title": "Concierto Triple Zero Band", "location": "Bar Melva", "category": "conciertos" },
+        { "time": "21:30 - 23:00", "title": "Concierto Buen Castigo (Homenaje Fito)", "location": "Escenario", "category": "conciertos" }
+      ]
+    },
+    {
+      "id": "2026-06-19",
+      "date": "2026-06-19",
+      "label": "Viernes",
+      "slug": "viernes",
+      "events": [
+        { "time": "14:00", "title": "Presentación de tortillas", "location": "Escenario", "category": "gastronomia" },
+        { "time": "14:30", "title": "Presentación de paellas", "location": "Escenario", "category": "gastronomia" },
+        { "time": "14:30", "title": "Comida popular", "location": "Plaza Desierto", "category": "popular" },
+        { "time": "17:30 - 18:30", "title": "Espectáculo Magic Santi", "location": "Escenario", "category": "infantil" },
+        { "time": "19:00 - 20:00", "title": "Bingo solidario", "location": "Escenario", "category": "bingo" },
+        { "time": "20:00 - 20:30", "title": "Entrega de premios gastronómicos", "location": "Escenario", "category": "gastronomia" },
+        { "time": "21:00 - 21:30", "title": "Encierro con cabezudos", "location": "Plaza Desierto", "category": "popular" },
+        { "time": "21:30 - 02:00", "title": "Verbena Orquesta Kalifornia", "location": "Escenario", "category": "conciertos" },
+        { "time": "23:30 - 00:00", "title": "Toro de fuego", "location": "Escenario", "category": "fuego" }
+      ]
+    },
+    {
+      "id": "2026-06-20",
+      "date": "2026-06-20",
+      "label": "Sábado",
+      "slug": "sabado",
+      "events": [
+        { "time": "09:30 - 10:30", "title": "Txistu kalejira", "location": "Plaza Desierto", "category": "musica" },
+        { "time": "11:00 - 13:00", "title": "Juegos de madera", "location": "Plaza Desierto", "category": "infantil" },
+        { "time": "11:00 - 13:00", "title": "Taller de ajedrez", "location": "Plaza Desierto", "category": "infantil" },
+        { "time": "11:00 - 13:00", "title": "Taller de fútbol", "location": "Plaza Roja", "category": "deporte" },
+        { "time": "12:00 - 13:00", "title": "Teatro infantil", "location": "Escenario", "category": "infantil" },
+        { "time": "12:30 - 13:30", "title": "Banda municipal", "location": "Plaza Desierto", "category": "musica" },
+        { "time": "13:00 - 14:00", "title": "Animación musical", "location": "Escenario", "category": "musica" },
+        { "time": "13:00 - 13:40", "title": "Guerra de agua", "location": "Plaza Desierto", "category": "infantil" },
+        { "time": "14:30 - 18:00", "title": "Picnic popular", "location": "Plaza Desierto", "category": "popular" },
+        { "time": "17:00 - 19:00", "title": "Concurso de mus", "location": "Bar Anezka", "category": "juegos" },
+        { "time": "18:00 - 19:00", "title": "Final campeonato de dardos", "location": "Bar Albatross", "category": "dardos" },
+        { "time": "19:00 - 20:00", "title": "Animación y bailes caribeños", "location": "Escenario", "category": "baile" },
+        { "time": "20:00 - 21:30", "title": "Concierto Havana 537", "location": "Escenario", "category": "conciertos" },
+        { "time": "22:00 - 22:30", "title": "Despedida de Tino", "location": "Escenario", "category": "popular" }
+      ]
+    },
+    {
+      "id": "2026-06-21",
+      "date": "2026-06-21",
+      "label": "Domingo",
+      "slug": "domingo",
+      "events": [
+        { "time": "11:30 - 13:30", "title": "Manualidades y ludoteka", "location": "Plaza Desierto", "category": "infantil" },
+        { "time": "17:00 - 18:30", "title": "Visita a residencias con mariachi", "location": "Residencias", "category": "mayores" },
+        { "time": "18:30 - 19:30", "title": "Clase de zumba", "location": "Escenario", "category": "deporte" },
+        { "time": "19:30 - 20:30", "title": "Chorizada", "location": "Plaza Desierto", "category": "popular" },
+        { "time": "19:30 - 21:00", "title": "Concierto de despedida AKAIS", "location": "Escenario", "category": "conciertos" }
+      ]
+    }
+  ]
+}

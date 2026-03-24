@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+
+.btn {
+  width: 100%;
+  padding: 1.1rem 1.5rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:active {
+    transform: scale(0.97);
+  }
+
+  &--primary {
+    background: $color-primary;
+    color: white;
+    border: none;
+    box-shadow: 0 8px 20px rgba($color-primary, 0.3);
+  }
+
+  &--secondary {
+    background: white;
+    border: 2px solid $color-primary;
+    color: $color-primary;
+  }
+}

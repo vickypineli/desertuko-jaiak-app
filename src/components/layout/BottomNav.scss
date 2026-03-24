@@ -1,0 +1,60 @@
+// src/components/layout/BottomNav.scss
+@use "../../styles/variables" as *;
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  border-top: 1px solid $color-border;
+  display: flex;
+  flex-direction: column; // Añadimos esto para que la barra se ponga debajo de los botones
+  height: auto; // Cambiamos de 64px a auto para que quepa la barra
+  z-index: 100;
+
+  // Contenedor para los botones
+  &__links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px; // El alto de los botones se queda aquí
+    width: 100%;
+  }
+
+  &__item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    &.active {
+      color: $color-primary;
+    }
+  }
+
+  // AHORA ESTÁ FUERA DE ITEM
+  &__color-bar {
+    display: flex;
+    height: 14px;
+    width: 100%; // Asegurar que ocupe todo el ancho
+
+    span {
+      flex: 1;
+      height: 100%; // Asegurar que se vea el color
+    }
+
+    .c1 { background: $color-primary; }
+    .c2 { background: #facc15; }
+    .c3 { background: $color-secondary; }
+    .c4 { background: #60a5fa; }
+  }
+}

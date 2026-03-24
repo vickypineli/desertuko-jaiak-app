@@ -1,0 +1,38 @@
+//src/components/Modal/Modal.scss
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;    
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow-y: auto; // 👈 scroll SOLO dentro del modal
+}
+
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba($color-secondary, 0.12);
+  backdrop-filter: blur(4px);
+}
+
+.modal__content {
+  position: relative;
+  max-width: 420px;
+  margin: 10vh auto;
+  background: $color-bg;
+  border-radius: 16px;
+  padding: 2rem;
+  animation: modalIn 0.2s ease;
+}
+
+@keyframes modalIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

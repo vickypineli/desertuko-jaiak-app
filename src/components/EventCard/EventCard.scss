@@ -1,0 +1,245 @@
+//src/components/EventCard/EventCard.scss
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;    
+
+
+.event-card {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  padding: $space-md;
+  align-items: center;
+  transition: transform 0.15s ease;
+  will-change: transform, opacity;
+  opacity: 0;
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.event-card__icon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;    
+  border-radius: 50%;
+  background: #fef3c7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 4px solid $color-bg;
+
+  position: relative;
+  z-index: 2;
+}
+.event-card:active .event-card__icon {
+  transform: scale(1.1);
+}
+.event-card__content {
+  flex: 1;
+}
+
+.event-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.event-card__time {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: $color-primary;
+}
+
+.event-card__dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: $color-primary;
+}
+
+.event-card__location {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-muted;
+}
+
+.event-card__title {
+  color: $color-text;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.event-card__icon--conciertos,
+.event-card__icon--kontzertuak,
+.event-card__icon--musica,
+.event-card__icon--musika {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.event-card__icon--gastronomia {
+  background: #fef3c7;
+  color: #d97706;
+}
+.event-card__icon--fuego,
+.event-card__icon--sua {
+  background: #fee2e2;
+  color: #d30505;
+}
+
+.event-card__icon--infantil,
+.event-card__icon--haurrak {
+  background: #fce7f3;
+  color: #db2777;
+}
+
+.event-card__icon--deporte,
+.event-card__icon--kirola,
+.event-card__icon--dardos,
+.event-card__icon--dardoak {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.event-card__icon--juegos,
+.event-card__icon--jokoak,
+.event-card__icon--bingoa,
+.event-card__icon--bingo {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+
+.event-card__icon--popular,
+.event-card__icon--herriko {
+  background: #ffe4e6;
+  color: #e11d48;
+}
+
+.event-card__icon--mayores,
+.event-card__icon--nagusiak {
+  background: #fef9c3;
+  color: #ca8a04;
+}
+.event-card__icon--bebidas,
+.event-card__icon--edariak {
+  background: #fff7ed;
+  color: #ea580c;
+}
+.event-card__icon--deporteAcuatico,
+.event-card__icon--urKirolak {
+  background: #dbeafe;
+  color: #3b82f6;
+}
+.event-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.event-card__info,
+.event-card__register {
+  transition: all 0.2s ease;
+}
+
+.event-card__info:active,
+.event-card__register:active {
+  transform: scale(0.9);
+}
+.event-card__info,
+.event-card__register {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.event-card__info {
+  color: $color-primary;
+}
+
+.event-card__info:hover {
+  background: rgba($color-primary, 0.2);
+}
+
+.event-card__register {
+  color:$color-secondary;
+}
+
+.event-card__register:hover {
+  background: rgba($color-secondary, 0.12);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+
+.event-card__register-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.event-card__tooltip {
+  position: absolute;
+  bottom: 120%;
+  right: 0;
+
+  background: #111;
+  color: #fff;
+  font-size: 0.65rem;
+
+  padding: 4px 8px;
+  border-radius: 6px;
+
+  white-space: nowrap;
+
+  animation: fadeTooltip 0.2s ease;
+}
+
+@keyframes fadeTooltip {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.event-card--now {
+  background: rgba($color-primary, 0.08);
+  border-radius: 12px;
+}
+
+.event-card--now .event-card__icon {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 4px rgba($color-primary, 0.2);
+}
+
+.event-card--now .event-card__time {
+  color: $color-secondary;
+}

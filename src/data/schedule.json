@@ -1,0 +1,342 @@
+{
+  "festival": {
+    "year": 2026,
+    "name": {"es": "Desertuko Jaiak","eu": "Desertuko Jaiak"},
+    "dates": {"es": "17 - 21 Junio 2026","eu": "2026ko Ekainak 17 - 21"},
+    "mascot":"Tino Gasolino"
+  },
+  "days": [
+    {
+      "id": "2026-06-17",
+      "date": "2026-06-17",
+      "weekday": {
+        "es": "Miércoles","eu": "Asteazkena"
+      },
+      "slug": "miercoles",
+      "events": [
+        {
+          "id": "ev1",
+          "start": "17:00",
+          "end": "18:00",
+          "title": {"es": "Bingo para mayores", "eu": "Nagusiontzako bingoa"},
+          "location": {"es": "Residencias", "eu": "Egoitzetan" },
+          "description": {
+              "es": "Actividad de bingo organizada para las personas mayores del barrio.",
+              "eu": "Auzoako nagusientzako antolatutako bingo jarduera."
+            },
+          "category": "mayores",
+          "requiresRegistration": false,
+          "registrationUrl": ""
+        },
+        {
+          "id": "ev2",
+          "start": "18:00",
+          "end": "20:00",
+          "title": {"es": "Manualidades", "eu": "Eskulan tailerrak"},
+          "location": {"es": "Zona de la Ría", "eu": "Itsasadar gunea" },
+          "category": "infantil",
+          "description": {
+              "es": "Taller de manualidades para niños y niñas, con materiales reciclados.",
+              "eu": "Eskulan tailerra haurrentzat, material birziklatuarekin."
+            },
+          "requiresRegistration": false,
+          "registrationUrl": ""
+        },
+        {
+          "id": "ev3",
+          "start": "18:00",
+          "end": "20:00",
+          "title": {"es": "Pintacaras", "eu": "Aurpegi margoketa"},
+          "location": {
+            "es": "Plaza Roja", "eu": "Plaza Gorria"
+          },
+          "category": "infantil",
+          "description": {
+              "es": "Pintacaras para niños y niñas, con diseños relacionados con el festival.",
+              "eu": "Aurpegi margoketa haurrentzat, jaialdiarekin lotutako diseinuekin."
+            },
+          "requiresRegistration": false,
+          "registrationUrl": ""
+        },
+        {
+          "id": "ev4",
+          "start": "18:00",
+          "end": "20:00",
+          "title": {"es": "Ludoteka", "eu": "Ludoteka"},
+          "location": {
+            "es": "Plaza Roja",
+            "eu": "Plaza Gorria"
+          },
+          "category": "infantil",
+          "description": {
+              "es": "Espacio de ludoteca con juegos de mesa y actividades para niños y niñas.",
+              "eu": "Ludoteka espazioa, mahai-jokoak eta haurrentzako jarduerak."
+            },
+          "requiresRegistration": false,
+          "registrationUrl": ""
+        },
+        {
+          "id": "ev5",
+          "start": "18:00",
+          "end": "20:00",
+          "title": {"es": "Kayak", "eu": "Kayaka"},
+          "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
+          "category": "deporteAcuatico",
+          "description": {
+              "es": "Actividad de kayak en la ría, con monitores y material incluido.",
+              "eu": "Kayak jarduera itsasadarrean, monitoreekin eta materialarekin."
+            },
+          "requiresRegistration": true,
+          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-kayak"
+        },
+        {
+          "id": "ev6",
+          "start": "18:00",
+          "end": "20:00",
+          "title": {"es": "Paddle Surf","eu": "Paddle Surf"},
+          "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
+          "category": "deporteAcuatico",
+          "description": {
+              "es": "Actividad de paddle surf en la ría, con monitores y material incluido.",
+              "eu": "Paddle surf jarduera itsasadarrean, monitoreekin eta materialarekin."
+            },
+          "requiresRegistration": true,
+          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-paddle-surf"
+        },
+        {
+          "id": "ev7",
+          "start": "18:00",
+          "end": "21:00",
+          "title": {"es": "Barra cerveza artesanal Laugar","eu": "Laugar artisau garagardoaren barra"},
+          "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
+          "category": "bebidas",
+          "description": {
+              "es": "Disfruta de la mejor cerveza artesanal de Laugar en nuestra barra situada en la zona de la ría.",
+              "eu": "Laugar artisau garagardo onena gozatu gure barran, itsasadar guneko kokatuta."
+          },
+          "requiresRegistration": false,
+          "registrationUrl": ""
+        }
+      ]
+    },
+
+    {
+      "id": "2026-06-18",
+      "date": "2026-06-18",
+      "weekday": {
+        "es": "Jueves",
+        "eu": "Osteguna"
+      },
+      "slug": "jueves",
+      "events": [
+        {
+          "id": "ev8",
+          "start": "19:00",
+          "end": "20:00",
+          "title": {
+            "es": "Campeonato de dardos (1ª jornada)","eu": "Dardo txapelketaren lehen jardunaldia"},
+          "location": {"es": "Bar Albatross","eu": "Bar Albatross"},
+          "category": "juegos",
+          "description": {
+              "es": "Primera jornada del campeonato de dardos, con premios para los ganadores.",
+              "eu": "Dardo txapelketaren lehen jardunaldia, irabazleentzako sariekin."
+            },
+          "requiresRegistration": true,
+          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-dardos"
+        },
+        {
+          "id": "ev9",
+          "start": "20:00",
+          "end": "21:30",
+          "title": {"es": "Concierto Triple Zero Band","eu": "Triple Zero Band kontzertua"},
+          "location": {"es": "Bar Melva","eu": "Bar Melva"},
+          "category": "conciertos",
+          "description": {
+              "es": "Disfruta del concierto de Triple Zero Band, con su mezcla de rock y pop.",
+              "eu": "Triple Zero Band kontzertua, rock eta poparen nahasketa batekin."              
+            },
+          "requiresRegistration": false,
+          "registrationUrl": " "
+        },
+        {
+          "id": "ev10",
+          "start": "21:30",
+          "end": "23:00",
+          "title": {"es": "Concierto Buen Castigo (Homenaje Fito)","eu": "Buen Castigo kontzertua (Fito omenaldia)"},
+          "location": {"es": "Escenario","eu": "Eszenatokian"},
+          "category": "conciertos"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19",
+      "date": "2026-06-19",
+      "weekday": {
+        "es": "Viernes",
+        "eu": "Ostirala"
+      },
+      "slug": "viernes",
+      "events": [
+        {
+          "id": "ev11",
+          "start": "19:00",
+          "end": "20:00",
+          "title": {"es": "Campeonato de dardos (2ª jornada)","eu": "Dardo txapelketaren bigarren jardunaldia"},
+          "location": {"es": "Bar Albatross","eu": "Bar Albatross"},
+          "category": "juegos"
+        },
+        {
+            "id": "ev12",
+            "start": "20:00",
+            "end": "21:30",
+            "title": {"es": "Concierto Triple Zero Band","eu": "Triple Zero Band kontzertua"},
+            "location": {"es": "Bar Melva","eu": "Bar Melva"},
+            "category": "conciertos"
+            },
+        {
+            "id": "ev13",
+            "start": "21:30",
+            "end": "23:00",
+            "title": {"es": "Concierto Buen Castigo (Homenaje Fito)","eu": "Buen Castigo kontzertua (Fito omenaldia)"},
+            "location": {"es": "Escenario","eu": "Eszenatokian"},
+            "category": "conciertos"
+        }
+
+      ]
+    },
+    {
+      "id": "2026-06-20",
+      "date": "2026-06-20",
+      "weekday": {
+        "es": "Sábado",
+        "eu": "Larunbata"
+      },
+      "slug": "sabado",
+      "events": [
+        {
+          "id": "ev14",
+          "start": "09:30",
+          "end": "10:30",
+          "title": {"es": "Txistu kalejira","eu": "Txistu kalejira"},
+          "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
+          "category": "musica"
+        },
+        {
+          "id": "ev15",
+          "start": "11:00",
+          "end": "13:00",
+          "title": {"es": "Juegos de madera","eu": "Egurrezko jolasak"},
+          "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
+          "category": "infantil"
+        },
+        {
+          "id": "ev16",
+          "start": "11:00",
+          "end": "13:00",
+          "title": {"es": "Taller de ajedrez","eu": 	"Xake tailerra"},
+          "location": {"es": "Plaza Desierto","eu": 	"Desertu Plaza"},
+          "category": "infantil"
+        },
+        {
+          "id": "ev17",
+          "start": "11:00",
+          "end": "13:00",
+          "title": {"es":"Taller de fútbol","eu":"Futbol tailerra"},
+          "location": {"es": "Plaza Roja","eu": "Plaza Gorria"},
+          "category": "deporte"
+        },
+        {
+          "id": "ev18",
+          "start": "12:00",
+          "end": "13:00",
+          "title": {"es": "Teatro infantil","eu": "Umeentzako antzerkia"},
+          "location": {"es": "Escenario","eu": "Eszenatokian"},
+          "category": "infantil"
+        },
+        {
+          "id": "ev19",
+          "start": "12:30",
+          "end": "13:30",
+          "title": {"es": "Banda municipal","eu": "Udal banda"},
+          "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
+          "category": "musica"
+        },
+        {
+          "id": "ev20",
+          "start": "13:00",
+          "end": "14:00",
+          "title": {"es": "Animación musical","eu": "Musika animazioa"},
+          "location": {"es": "Escenario","eu": "Eszenatokian"},
+          "category": "musica"
+        },
+        {      
+          "id": "ev21",
+          "start": "14:00",
+          "end": "15:00",
+          "title": {"es": "Barra cerveza artesanal Laugar","eu": "Laugar artisau garagardoaren barra"},
+          "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
+          "category": "bebidas"
+        },
+        {
+          "id": "ev22",
+          "start": "23:30",
+          "end": "00:00",
+          "title": {"es": "Toro de fuego","eu": "Susko zezenak"},
+          "location": {"es": "Escenario","eu": "Eszenatokian"},
+          "category": "fuego"
+        }
+      ]
+    },
+    {
+        "id": "2026-06-21",
+        "date": "2026-06-21",
+        "weekday": {
+            "es": "Domingo",
+            "eu": "Igandea"
+        },
+        "slug": "domingo",
+        "events": [
+            {
+            "id": "ev23",
+            "start": "12:00",
+            "end": "14:00",
+            "title": {"es": "Brunch popular","eu": "Brunch herrikoia"},
+            "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
+            "category": "popular"
+            },
+            {
+            "id": "ev24",
+            "start": "14:00",
+            "end": "16:00",
+            "title": {"es": "Concierto de despedida","eu": "Agurra kontzertua"},
+            "location": {"es": "Escenario","eu": "Eszenatokian"},
+            "category": "conciertos"
+            },
+            {
+            "id": "ev25",
+            "start": "16:00",
+            "end": "18:00",
+            "title": {"es": "Baile popular","eu": "Dantza herrikoia"},
+            "location": {"es": "Escenario","eu": "Eszenatokian"},
+            "category": "baile"
+            },
+            {
+            "id": "ev26",
+            "start": "18:00",
+            "end": "21:00",
+            "title": {"es": "Chorizada","eu": "txorizada"},
+            "location": {"es": "Plaza el Desierto","eu": "Desertuko Plaza"},
+            "category": "gastronomia"
+            },
+            {
+            "id": "ev27",
+            "start": "20:00",
+            "end": "22:30",
+            "title": {"es": "Despedida de Tino","eu": "Tinoren agurra"},
+            "location": {"es": "Escenario","eu": "Eszenatokian"},
+            "category": "popular"
+            }
+        ]
+    }       
+  ]
+}

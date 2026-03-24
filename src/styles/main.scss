@@ -1,0 +1,94 @@
+//src/styles/main.scss
+
+@use "variables" as *;
+@use "mixins" as *;
+
+body {
+  margin: 0;
+  font-family: $font-base;
+  background: $color-bg;
+  color: $color-text;
+}
+
+// /* ===== Header estilo app ===== */
+// .app-header {
+//  // @include page-padding;
+//   background: linear-gradient(135deg, #e9f7ef, #ffffff);
+//   color: $color-text;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   border-bottom: 1px solid $color-border;
+
+//   h1 {
+//     font-size: 1.1rem;
+//     font-weight: 700;
+//   }
+// }
+
+/* ===== Páginas ===== */
+// .lang-page,
+// .menu-page,
+// .events-page {
+//   @include page-padding;
+// }
+
+// /* ===== Botones idioma ===== */
+// .lang-page button {
+//   @include tap-target;
+//   width: 100%;
+//   border-radius: $radius-lg;
+//   font-size: 1rem;
+//   font-weight: 600;
+//   border: none;
+//   //margin-bottom: $space-md;
+//   cursor: pointer;
+
+//   &.primary {
+//     background: $color-primary;
+//     color: white;
+//     box-shadow: $shadow-md;
+//   }
+
+//   &.secondary {
+//     background: white;
+//     color: $color-primary-dark;
+//     border: 2px solid $color-primary;
+//   }
+// }
+
+/* ===== Day cards (menú principal) ===== */
+// .day-card {
+//   @include card;
+//   @include tap-target;
+//   padding: $space-md;
+//   margin-bottom: $space-md;
+//   cursor: pointer;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+
+//   .day-badge {
+//     font-weight: 700;
+//   }
+
+//   .day-date {
+//     font-size: 0.8rem;
+//     color: $color-muted;
+//   }
+
+//   &:active {
+//     transform: scale(0.98);
+//   }
+// }
+
+
+
+/* ===== Responsive (tablet+) ===== */
+// @media (min-width: 768px) {
+//   .menu-page,
+//   .events-page {
+//     max-width: 480px;
+//     margin: 0 auto;
+//   }
+// }

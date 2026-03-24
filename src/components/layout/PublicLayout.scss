@@ -1,0 +1,19 @@
+//src/components/layout/PublicLayout.jsx
+
+@use "../../styles/variables" as *;
+
+// En tu archivo de estilos donde esté .page-layout (PublicLayout)
+.page-layout {
+  height: 100dvh; // Altura fija a la pantalla
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 480px;
+
+  &__content {
+    flex: 1; // Esto absorbe todo el espacio central
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; // Si el contenido crece, solo scrolea esta parte
+  }
+}

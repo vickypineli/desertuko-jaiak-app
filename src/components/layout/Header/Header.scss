@@ -1,0 +1,99 @@
+@use "../../../styles/variables" as *;
+
+.festival-header {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem 1.5rem 2rem;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  //background-color: $color-bg;
+  //background: linear-gradient(135deg, #e9f7ef, #ffffff);
+  background: linear-gradient(135deg, #e0f2fe 0%, #ffffff 100%);
+  box-shadow: $shadow-sm;
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title-row {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    //gap: 0.5rem;
+    //margin-bottom: 0.15rem;
+  }
+
+  &__icon {
+    color: $color-primary;
+  
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    padding: 1px;
+
+    .primary {
+      color: $color-primary;
+    }
+
+    .secondary {
+      color: $color-secondary;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $color-muted;
+    margin-top: 1px;
+    //margin-bottom: 0.1rem;
+  }
+
+
+
+  &__dates {
+    //margin-top: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    background: $color-card;
+    padding: 0.8rem 1.2rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    z-index: 1;
+
+    &--top {
+      width: 130px;
+      height: 530px;
+      top: -30px;
+      right: -30px;
+      background-color:$color-bg;
+      //background: rgba(250, 204, 21, 0.2);
+    }
+
+    &--bottom {
+      width: 100px;
+      height: 100px;
+      bottom: -30px;
+      left: -30px;
+      background: rgba(96, 165, 250, 0.2);
+    }
+  }
+}

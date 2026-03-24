@@ -1,0 +1,43 @@
+//src/components/EventModal/EventModal.scss
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.event-modal__title {
+  font-size: 1.50rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: $color-primary;
+}
+.event-modal__time {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $color-muted;
+  margin-bottom: 0.5rem;
+}
+.event-modal__location {
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    color: $color-secondary;
+}
+.event-modal__description {
+  margin-top: 1rem;
+  color: $color-muted;
+}
+.event-modal__button {
+  margin-top: 1.5rem;
+}
+
+.event-card__tooltip {
+  position: absolute;
+  bottom: 85%;
+  right: 15%;
+
+  background: $color-secondary;
+  color: white;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0.9;
+}

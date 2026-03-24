@@ -1,0 +1,82 @@
+{
+  "days": [
+    {
+      "id": "2026-06-17",
+      "date": "2026-06-17",
+      "label": "Asteazkena",
+      "slug": "asteazkena",
+      "events": [
+        { "time": "17:00 - 18:00", "title": "Nagusiontzako bingoa", "location": "Egoitzetan", "category": "nagusiak" },
+        { "time": "18:00 - 20:00", "title": "Eskulan tailerrak", "location": "Itsasadar gunea", "category": "haurrak" },
+        { "time": "18:00 - 20:00", "title": "Aurpegi margoketa", "location": "Plaza Gorria", "category": "haurrak" },
+        { "time": "18:00 - 20:00", "title": "Ludoteka", "location": "Plaza Gorria", "category": "haurrak" },
+        { "time": "18:00 - 20:00", "title": "Kayaka", "location": "Itsasadar gunea", "category": "urKirolak" },
+        { "time": "18:00 - 20:00", "title": "Paddle Surf", "location": "Itsasadar gunea", "category": "urKirolak" },
+        { "time": "18:00 - 21:00", "title": "Laugar artisau garagardoaren barra", "location": "Itsasadar gunea", "category": "edariak" }
+      ]
+    },
+    {
+      "id": "2026-06-18",
+      "date": "2026-06-18",
+      "label": "Osteguna",
+      "slug": "osteguna",
+      "events": [
+        { "time": "19:00 - 20:00", "title": "Dardo txapelketaren lehen jardunaldia", "location": "Bar Albatross", "category": "jokoak" },
+        { "time": "20:00 - 21:30", "title": "Triple Zero Band kontzertua", "location": "Bar Melva", "category": "kontzertuak" },
+        { "time": "21:30 - 23:00", "title": "Buen Castigo kontzertua (Fito & Fitipaldis omenaldia)", "location": "Eszenatokian", "category": "kontzertuak" }
+      ]
+    },
+    {
+      "id": "2026-06-19",
+      "date": "2026-06-19",
+      "label": "Ostirala",
+      "slug": "ostirala",
+      "events": [
+        { "time": "14:00", "title": "Tortilla lehiaketaren aurkezpena", "location": "Eszenatokian", "category": "gastronomia" },
+        { "time": "14:30", "title": "Paella aurkezpena", "location": "Eszenatokian", "category": "gastronomia" },
+        { "time": "14:30", "title": "Herri bazkaria", "location": "Desertu Plaza", "category": "herriko" },
+        { "time": "17:30 - 18:30", "title": "Magic Santi ikuskizuna", "location": "Eszenatokian", "category": "haurrak" },
+        { "time": "19:00 - 20:00", "title": "Bingo solidarioa", "location": "Eszenatokian", "category": "bingoa" },
+        { "time": "20:00 - 20:30", "title": "Lehiaketa gastronomikoko sari banaketa", "location": "Eszenatokian", "category": "gastronomia" },
+        { "time": "21:00 - 21:30", "title": "Entzierro buruhandiekin", "location": "Desertu Plaza", "category": "herriko" },
+        { "time": "21:30 - 02:00", "title": "Kalifornia Orkestrarekin berbena", "location": "Eszenatokian", "category": "kontzertuak" },
+        { "time": "23:30 - 00:00", "title": "Suzko zezena", "location": "Eszenatokian", "category": "sua" }
+      ]
+    },
+    {
+      "id": "2026-06-20",
+      "date": "2026-06-20",
+      "label": "Larunbata",
+      "slug": "larunbata",
+      "events": [
+        { "time": "09:30 - 10:30", "title": "Txistu kalejira", "location": "Desertu Plaza", "category": "musika" },
+        { "time": "11:00 - 13:00", "title": "Egurrezko jolasak", "location": "Desertu Plaza", "category": "haurrak" },
+        { "time": "11:00 - 13:00", "title": "Xake tailerra", "location": "Desertu Plaza", "category": "haurrak" },
+        { "time": "11:00 - 13:00", "title": "Futbol tailerra", "location": "Plaza Gorria", "category": "kirola" },
+        { "time": "12:00 - 13:00", "title": "Umeentzako antzerkia", "location": "Eszenatokian", "category": "haurrak" },
+        { "time": "12:30 - 13:30", "title": "Udal banda", "location": "Desertu Plaza", "category": "musika" },
+        { "time": "13:00 - 14:00", "title": "Musika animazioa", "location": "Eszenatokian", "category": "musika" },
+        { "time": "13:00 - 13:40", "title": "Ur-gerra", "location": "Desertu Plaza", "category": "haurrak" },
+        { "time": "14:30 - 18:00", "title": "Herriko picnic-a", "location": "Desertu Plaza", "category": "herriko" },
+        { "time": "17:00 - 19:00", "title": "Mus txapelketa", "location": "Bar Anezka", "category": "jokoak" },
+        { "time": "18:00 - 19:00", "title": "Dardo txapelketaren finala", "location": "Bar Albatross", "category": "dardoak" },
+        { "time": "19:00 - 20:00", "title": "Karibeko dantzak eta animazioa", "location": "Eszenatokian", "category": "dantza" },
+        { "time": "20:00 - 21:30", "title": "Havana 537 kontzertua", "location": "Eszenatokian", "category": "kontzertuak" },
+        { "time": "22:00 - 22:30", "title": "Tinoren agurra", "location": "Eszenatokian", "category": "herriko" }
+      ]
+    },
+    {
+      "id": "2026-06-21",
+      "date": "2026-06-21",
+      "label": "Igandea",
+      "slug": "igandea",
+      "events": [
+        { "time": "11:30 - 13:30", "title": "Eskulanak eta ludoteka", "location": "Desertu Plaza", "category": "haurrak" },
+        { "time": "17:00 - 18:30", "title": "Egoitzetara bisita mariatxiarekin", "location": "Egoitzetan", "category": "nagusiak" },
+        { "time": "18:30 - 19:30", "title": "Zumba klasea", "location": "Eszenatokian", "category": "kirola" },
+        { "time": "19:30 - 20:30", "title": "Txorizada", "location": "Desertu Plaza", "category": "herriko" },
+        { "time": "19:30 - 21:00", "title": "AKAIS agur kontzertua", "location": "Eszenatokian", "category": "kontzertuak" }
+      ]
+    }
+  ]
+}
