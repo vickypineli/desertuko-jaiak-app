@@ -28,7 +28,7 @@ export default function LanguageSelectorPage() {
           <h1 className="language-page__subtitle">{t("festivalSubName")}</h1>
         </div>
         <img
-          src="/public/images/tinoHome.png"
+          src="/images/tinoHome.png"
           alt="Desertuko Jaiak"
           className="language-page__image"
         />
