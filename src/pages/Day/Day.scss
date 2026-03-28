@@ -29,3 +29,14 @@
   width: 2px;
   background: #c2c4c7;
 }
+/* 🔥 evento fijo arriba */
+.event-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background: white;
+  padding: 0.5rem 0;
+
+  border-bottom: 1px solid #eee;
+}

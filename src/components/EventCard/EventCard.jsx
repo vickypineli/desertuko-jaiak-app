@@ -1,5 +1,6 @@
 //src/components/EventCard/EventCard.jsx
 import { useState } from "react";
+import { formatEventTime } from "../../utils/dateHelper";
 import "./EventCard.scss";
 import {
   FaMusic,
@@ -39,7 +40,7 @@ const icons = {
 
 
 export default function EventCard({
-  time,
+  //time,
   title,
   location,
   category,
@@ -47,7 +48,10 @@ export default function EventCard({
   requiresRegistration,
   onInfoClick,
   index,
-  isNow
+  isNow,
+  start,
+  end,
+  remainingTime
 }) {
   const [showInfoTip, setShowInfoTip] = useState(false);
   const [showRegisterTip, setShowRegisterTip] = useState(false);
@@ -64,7 +68,10 @@ export default function EventCard({
         <div className="event-card__content">
 
           <div className="event-card__meta">
-            <span className="event-card__time">{time}</span>
+            <span className="event-card__time">
+              {formatEventTime(start)}
+              {end && ` - ${formatEventTime(end)}`}
+            </span> 
             <span className="event-card__dot"></span>
             <span className="event-card__location">{location}</span>
             <span className="event-card__dot"></span>
@@ -95,7 +102,11 @@ export default function EventCard({
           </div>
 
           <h3 className="event-card__title">{title}</h3>
-
+          {remainingTime !== null && (
+            <span className="event-card__remaining">
+              Termina en {remainingTime} min
+            </span>
+          )}
         </div>
 
         <div className="event-card__actions">

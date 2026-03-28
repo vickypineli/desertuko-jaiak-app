@@ -7,8 +7,8 @@
   },
   "days": [
     {
-      "id": "2026-06-17",
-      "date": "2026-06-17",
+      "id": "2026-03-17",
+      "date": "2026-03-17",
       "weekday": {
         "es": "Miércoles","eu": "Asteazkena"
       },
@@ -16,8 +16,8 @@
       "events": [
         {
           "id": "ev1",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T20:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T20:00:00",
           "title": {"es": "Bingo para mayores", "eu": "Nagusiontzako bingoa"},
           "location": {"es": "Residencias", "eu": "Egoitzetan" },
           "description": {
@@ -26,13 +26,16 @@
             },
           "category": "mayores",
           "requiresRegistration": false,
-          "registrationUrl": ""
-
+          "registrationUrl": "",
+          "recommendedAge": {
+            "es": "A partir de 60 años",
+            "eu": "60 urtetik aurrera"
+          }
         },
         {
           "id": "ev2",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T20:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T20:00:00",
           "title": {"es": "Manualidades", "eu": "Eskulan tailerrak"},
           "location": {"es": "Zona de la Ría", "eu": "Itsasadar gunea" },
           "category": "infantil",
@@ -45,8 +48,8 @@
         },
         {
           "id": "ev3",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T20:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T20:00:00",
           "title": {"es": "Pintacaras", "eu": "Aurpegi margoketa"},
           "location": {
             "es": "Plaza Roja", "eu": "Plaza Gorria"
@@ -57,12 +60,16 @@
               "eu": "Aurpegi margoketa haurrentzat, jaialdiarekin lotutako diseinuekin."
             },
           "requiresRegistration": false,
-          "registrationUrl": ""
+          "registrationUrl": "",
+          "recommendedAge": {
+            "es": "A partir de 4 años",
+            "eu": "4 urtetik aurrera"
+          }
         },
         {
           "id": "ev4",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T20:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T20:00:00",
           "title": {"es": "Ludoteka", "eu": "Ludoteka"},
           "location": {
             "es": "Plaza Roja",
@@ -74,12 +81,16 @@
               "eu": "Ludoteka espazioa, mahai-jokoak eta haurrentzako jarduerak."
             },
           "requiresRegistration": false,
-          "registrationUrl": ""
+          "registrationUrl": "",
+          "recommendedAge": {
+            "es": "A partir de 3 años",
+            "eu": "3 urtetik aurrera"
+          }
         },
         {
           "id": "ev5",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T20:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T20:00:00",
           "title": {"es": "Kayak", "eu": "Kayaka"},
           "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
           "category": "deporteAcuatico",
@@ -88,12 +99,17 @@
               "eu": "Kayak jarduera itsasadarrean, monitoreekin eta materialarekin."
             },
           "requiresRegistration": true,
-          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-kayak"
+          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-kayak",
+          "recommendedAge": {
+            "es": "A partir de 8 años",
+            "eu": "8 urtetik aurrera"
+          }
+
         },
         {
           "id": "ev6",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T20:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T20:00:00",
           "title": {"es": "Paddle Surf","eu": "Paddle Surf"},
           "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
           "category": "deporteAcuatico",
@@ -102,12 +118,16 @@
               "eu": "Paddle surf jarduera itsasadarrean, monitoreekin eta materialarekin."
             },
           "requiresRegistration": true,
-          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-paddle-surf"
+          "registrationUrl": "https://www.desertuko-jaiak.eus/registro-paddle-surf",
+          "recommendedAge": {
+            "es": "A partir de 10 años",
+            "eu": "10 urtetik aurrera"
+          }
         },
         {
           "id": "ev7",
-          "start": "2025-07-20T18:00:00",
-          "end": "2025-07-20T21:00:00",
+          "start": "2026-03-20T18:00:00",
+          "end": "2026-03-20T21:00:00",
           "title": {"es": "Barra cerveza artesanal Laugar","eu": "Laugar artisau garagardoaren barra"},
           "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
           "category": "bebidas",
@@ -116,14 +136,18 @@
               "eu": "Laugar artisau garagardo onena gozatu gure barran, itsasadar guneko kokatuta."
           },
           "requiresRegistration": false,
-          "registrationUrl": ""
+          "registrationUrl": "",
+          "recommendedAge": {
+            "es": "A partir de 18 años",
+            "eu": "18 urtetik aurrera"
+          }
         }
       ]
     },
 
     {
-      "id": "2026-06-18",
-      "date": "2026-06-18",
+      "id": "2026-03-18",
+      "date": "2026-03-18",
       "weekday": {
         "es": "Jueves",
         "eu": "Osteguna"
@@ -132,8 +156,8 @@
       "events": [
         {
           "id": "ev8",
-          "start": "2026-06-18T19:00:00",
-          "end": "2026-06-18T20:00:00",
+          "start": "2026-03-18T19:00:00",
+          "end": "2026-03-18T20:00:00",
           "title": {
             "es": "Campeonato de dardos (1ª jornada)","eu": "Dardo txapelketaren lehen jardunaldia"},
           "location": {"es": "Bar Albatross","eu": "Bar Albatross"},
@@ -147,8 +171,8 @@
         },
         {
           "id": "ev9",
-          "start": "2026-06-18T20:00:00",
-          "end": "2026-06-18T21:30:00",
+          "start": "2026-03-18T20:00:00",
+          "end": "2026-03-18T21:30:00",
           "title": {"es": "Concierto Triple Zero Band","eu": "Triple Zero Band kontzertua"},
           "location": {"es": "Bar Melva","eu": "Bar Melva"},
           "category": "conciertos",
@@ -157,21 +181,36 @@
               "eu": "Triple Zero Band kontzertua, rock eta poparen nahasketa batekin."              
             },
           "requiresRegistration": false,
-          "registrationUrl": " "
+          "registrationUrl": " ",
+          "recommendedAge": {
+            "es": "Todos los publicos",
+            "eu": "Publiko guztientzat"
+          }
         },
          {
           "id": "ev10",
-          "start": "2026-06-18T21:30:00",
-          "end": "2026-06-18T23:00:00",
+          "start": "2026-03-18T21:30:00",
+          "end": "2026-03-18T23:00:00",
           "title": {"es": "Concierto Buen Castigo (Homenaje Fito)","eu": "Buen Castigo kontzertua (Fito omenaldia)"},
           "location": {"es": "Escenario","eu": "Eszenatokian"},
-          "category": "conciertos"
+          "category": "conciertos",
+          "description": {
+              "es": "Concierto de Buen Castigo, con un homenaje a Fito & Fitipaldis.",
+              "eu": "Buen Castigo kontzertua, Fito & Fitipaldis omenaldiarekin."
+            },
+          "requiresRegistration": false,  
+          "registrationUrl": " ",
+          "recommendedAge": {
+            "es": "Todos los publicos",
+            "eu": "Publiko guztientzat" 
+          }
         }
+        
       ]
     },
     {
-      "id": "2026-06-19",
-      "date": "2026-06-19",
+      "id": "2026-03-19",
+      "date": "2026-03-19",
       "weekday": {
         "es": "Viernes",
         "eu": "Ostirala"
@@ -206,8 +245,8 @@
       ]
     },
     {
-      "id": "2026-06-20",
-      "date": "2026-06-20",
+      "id": "2026-03-28",
+      "date": "2026-03-28",
       "weekday": {
         "es": "Sábado",
         "eu": "Larunbata"
@@ -216,72 +255,72 @@
       "events": [
         {
           "id": "ev14",
-          "start": "2026-06-20T09:30:00",
-          "end": "2026-06-20T10:30:00",
+          "start": "2026-03-28T09:30:00",
+          "end": "2026-03-28T10:30:00",
           "title": {"es": "Txistu kalejira","eu": "Txistu kalejira"},
           "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
           "category": "musica"
         },
         {
           "id": "ev15",
-          "start": "2026-06-20T11:00:00",
-          "end": "2026-06-20T13:00:00",
+          "start": "2026-03-28T11:00:00",
+          "end": "2026-03-28T13:00:00",
           "title": {"es": "Juegos de madera","eu": "Egurrezko jolasak"},
           "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
           "category": "infantil"
         },
         {
           "id": "ev16",
-          "start": "2026-06-20T11:00:00",
-          "end": "2026-06-20T13:00:00",
+          "start": "2026-03-28T11:00:00",
+          "end": "2026-03-28T13:00:00",
           "title": {"es": "Taller de ajedrez","eu": 	"Xake tailerra"},
           "location": {"es": "Plaza Desierto","eu": 	"Desertu Plaza"},
           "category": "infantil"
         },
         {
           "id": "ev17",
-          "start": "2026-06-20T11:00:00",
-          "end": "2026-06-20T13:00:00",
+          "start": "2026-03-28T11:00:00",
+          "end": "2026-03-28T13:00:00",
           "title": {"es":"Taller de fútbol","eu":"Futbol tailerra"},
           "location": {"es": "Plaza Roja","eu": "Plaza Gorria"},
           "category": "deporte"
         },
         {
           "id": "ev18",
-          "start": "2026-06-20T12:00:00",
-          "end": "2026-06-20T13:00:00",
+          "start": "2026-03-28T12:00:00",
+          "end": "2026-03-28T13:00:00",
           "title": {"es": "Teatro infantil","eu": "Umeentzako antzerkia"},
           "location": {"es": "Escenario","eu": "Eszenatokian"},
           "category": "infantil"
         },
         {
           "id": "ev19",
-          "start": "2026-06-20T12:30:00",
-          "end": "2026-06-20T13:30:00",
+          "start": "2026-03-28T12:30:00",
+          "end": "2026-03-28T13:30:00",
           "title": {"es": "Banda municipal","eu": "Udal banda"},
           "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
           "category": "musica"
         },
         {
           "id": "ev20",
-          "start": "2026-06-20T13:00:00",
-          "end": "2026-06-20T14:00:00",
+          "start": "2026-03-28T13:00:00",
+          "end": "2026-03-28T14:00:00",
           "title": {"es": "Animación musical","eu": "Musika animazioa"},
           "location": {"es": "Escenario","eu": "Eszenatokian"},
           "category": "musica"
         },
         {      
           "id": "ev21",
-          "start": "2026-06-20T14:00:00",
-          "end": "2026-06-20T15:00:00",
+          "start": "2026-03-28T21:00:00",
+          "end": "2026-03-28T23:00:00",
           "title": {"es": "Barra cerveza artesanal Laugar","eu": "Laugar artisau garagardoaren barra"},
           "location": {"es": "Zona de la Ría","eu": "Itsasadar gunea"},
           "category": "bebidas"
         },
         {
           "id": "ev22",
-          "start": "2026-06-20T23:30:00",
-          "end": "2026-06-21T00:00:00",
+          "start": "2026-03-28T23:30:00",
+          "end": "2026-03-29T00:00:00",
           "title": {"es": "Toro de fuego","eu": "Susko zezenak"},
           "location": {"es": "Escenario","eu": "Eszenatokian"},
           "category": "fuego"
@@ -289,8 +328,8 @@
       ]
     },
     {
-        "id": "2026-06-21",
-        "date": "2026-06-21",
+        "id": "2026-03-21",
+        "date": "2026-03-21",
         "weekday": {
             "es": "Domingo",
             "eu": "Igandea"
@@ -299,40 +338,40 @@
         "events": [
             {
             "id": "ev23",
-            "start": "2026-06-21T12:00:00",
-            "end": "2026-06-21T14:00:00",
+            "start": "2026-03-21T12:00:00",
+            "end": "2026-03-21T14:00:00",
             "title": {"es": "Brunch popular","eu": "Brunch herrikoia"},
             "location": {"es": "Plaza Desierto","eu": "Desertu Plaza"},
             "category": "popular"
             },
             {
             "id": "ev24",
-            "start": "2026-06-21T14:00:00",
-            "end": "2026-06-21T16:00:00",
+            "start": "2026-03-21T14:00:00",
+            "end": "2026-03-21T16:00:00",
             "title": {"es": "Concierto de despedida","eu": "Agurra kontzertua"},
             "location": {"es": "Escenario","eu": "Eszenatokian"},
             "category": "conciertos"
             },
             {
             "id": "ev25",
-            "start": "2026-06-21T16:00:00",
-            "end": "2026-06-21T18:00:00",
+            "start": "2026-03-21T16:00:00",
+            "end": "2026-03-21T18:00:00",
             "title": {"es": "Baile popular","eu": "Dantza herrikoia"},
             "location": {"es": "Escenario","eu": "Eszenatokian"},
             "category": "baile"
             },
             {
             "id": "ev26",
-            "start": "2026-06-21T18:00:00",
-            "end": "2026-06-21T21:00:00",
+            "start": "2026-03-21T18:00:00",
+            "end": "2026-03-21T21:00:00",
             "title": {"es": "Chorizada","eu": "txorizada"},
             "location": {"es": "Plaza el Desierto","eu": "Desertuko Plaza"},
             "category": "gastronomia"
             },
             {
             "id": "ev27",
-            "start": "2026-06-21T20:00:00",
-            "end": "2026-06-21T22:30:00",
+            "start": "2026-03-21T20:00:00",
+            "end": "2026-03-21T22:30:00",
             "title": {"es": "Despedida de Tino","eu": "Tinoren agurra"},
             "location": {"es": "Escenario","eu": "Eszenatokian"},
             "category": "popular"

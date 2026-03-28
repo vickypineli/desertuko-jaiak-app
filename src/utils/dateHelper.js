@@ -97,3 +97,27 @@ export function formatFestivalDates(days, lang) {
 
   return `${firstDay}-${lastDay} de ${monthsES[month]} ${year}`;
 }
+
+// export function formatEventTime(dateString, locale = "es") {
+//   if (!dateString) return "";
+
+//   const date = new Date(dateString);
+//   if (isNaN(date)) {
+//     console.warn("Fecha inválida:", dateString);
+//     return "";
+//   }
+
+//   return date.toLocaleTimeString(locale, {
+//     hour: "2-digit",
+//     minute: "2-digit",
+//   });
+// }
+
+export function formatEventTime(dateString, locale = "es") {
+  const date = new Date(dateString);
+
+  return date.toLocaleTimeString(locale, {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}

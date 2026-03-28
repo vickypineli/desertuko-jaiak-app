@@ -19,7 +19,9 @@ export function getScheduleByLang(lang = "es") {
       events: day.events.map(event => ({
         id: event.id,
 
-        time: `${event.start} - ${event.end}`,
+        //time: `${event.start} - ${event.end}`,
+        start: event.start,
+        end: event.end,
 
         title: event.title?.[lang] || "",
         location: event.location?.[lang] || "",

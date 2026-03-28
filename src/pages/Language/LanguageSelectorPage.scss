@@ -43,20 +43,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  //gap: 0.5rem;
 
   flex-wrap: wrap;
 }
 /*TITULO */
 .language-page__title {
-  font-size: 2rem;
+  font-family: $font-heading;
+  font-size: 2.5rem;
   font-weight: 700;
   color: $color-primary;
 }
 
 /* SUBTITULO */
 .language-page__subtitle {
-  font-size: 2rem;
+  font-family: $font-heading;
+  font-size: 2.5rem;
   font-weight: 700;
   color: $color-secondary;
 }
@@ -67,6 +69,7 @@
 /* IMAGEN */
 
 .language-page__image {
+  margin-top: 1rem;
   max-height: 30vh;
   object-fit: contain;
 }
@@ -77,6 +80,7 @@
   flex-direction: column;
   margin:auto;
   gap: 0.5rem;
+  margin-top: 4rem;
 
   .language-page__hint {
     font-size: 0.9rem;
@@ -86,7 +90,7 @@
 /* BOTONES */
 
 .language-page__buttons {
-  width: 100%;
+ // width: 100%;
   max-width: 340px;
   margin-top: 1rem;
   display: flex;

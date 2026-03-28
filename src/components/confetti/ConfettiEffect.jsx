@@ -18,7 +18,7 @@ export default function StreamerEffect() {
 
     // --- CONFIGURACIÓN DE COLORES ---
     // Puedes añadir o quitar códigos hex aquí
-    const colors = ['#7ac943', '#ffbe0b', '#fb5607', '#3a86ff'];
+    const colors = ['#4364c9', '#f3e447', '#3c9638', '#3a86ff', '#c6282a', '#f3722c'];
 
     (function frame() {
       // Ajustes comunes para ambos lados
@@ -32,11 +32,11 @@ export default function StreamerEffect() {
         // 1 es el valor por defecto. 
         // Valores menores (0.5, 0.8) hacen que caiga más lento (flotante).
         // Valores mayores (1.5, 2) hacen que caiga muy rápido.
-        gravity: 0.5,    
+        gravity: 0.1,    
 
         // --- TAMAÑO ---
         // 1 es normal. Súbelo (1.5, 2) para serpentinas más gruesas.
-        scalar: 1.2,     
+        scalar: 0.7,     
         
         // --- DERIVA / VIENTO ---
         // 0 es caída recta. Valores positivos/negativos añaden "viento" lateral.
