@@ -1,36 +1,43 @@
 @use "../../styles/variables" as *;
 
 .language-page {
-  min-height: 100dvh;
+  min-height: 80svh; /* ✅ viewport real en móvil moderno */
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  flex: 1;   // 🔥 se adapta al padre
 }
 
 /* CONTENIDO */
 
 .language-page__content {
+  height: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  gap: 1rem;
   padding: 1rem;
+
   text-align: center;
 
-  max-width: 500px;
-  margin: 0 auto;
+  // ❌ ESTO ERA DEBUG
+  // background-color: red;
+
+  //max-width: 500px;
+  margin:  auto;
 }
 
 /* CONFETTI */
 
-.confetti-canvas-bg {
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-}
+// .confetti-canvas-bg {
+//   position: fixed;
+//   inset: 0;
+//   width: 100%;
+//   height: 100%;
+// }
 
 /* HEADER */
 
@@ -66,16 +73,16 @@
 /* IMAGEN */
 
 .language-page__image {
-  width: 100%;
-  max-width: 220px;
+  max-width: 300px;
   height: auto;
-  margin: 1rem 0;
+
 }
 
 /* SELECTOR */
 
 .language-page__selector {
   width: 100%;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -162,7 +169,7 @@
   }
 
   .language-page__image {
-    max-width: 260px;
+    max-width: 360px;
   }
 
   .language-page__buttons {
@@ -188,3 +195,7 @@
     font-size: 2rem;
   }
 }
+
+// * {
+//   outline: 1px solid red;
+// }

@@ -2,19 +2,25 @@
 
 @use "../../styles/variables" as *;
 
-// En tu archivo de estilos donde esté .page-layout (PublicLayout)
+
 .page-layout {
-  height: 100dvh; // Altura fija a la pantalla
+  height: 100svh; // Altura fija a la pantalla
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  max-width: 480px;
+  
+
 
   &__content {
-    flex: 1; // Esto absorbe todo el espacio central
+    //flex: 1; // Esto absorbe todo el espacio central
     display: flex;
     flex-direction: column;
-    overflow-y: auto; // Si el contenido crece, solo scrolea esta parte
+    //overflow-y: auto; // Si el contenido crece, solo scrolea esta parte
+  }
+  &__footer {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+
   }
 
 }

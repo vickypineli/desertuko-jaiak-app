@@ -1,13 +1,22 @@
 /* Estilos para el canvas de confeti de fondo */
-.confetti-canvas-bg {
-  position: fixed; // Se queda fijo en la pantalla
-  top: 0;
-  left: 0;
-  width: 100vw; // Ocupa todo el ancho visual
-  height: 80vh; // Ocupa todo el alto visual
+// .confetti-canvas-bg {
+//   position: fixed; // Se queda fijo en la pantalla
+//   top: 0;
+//   left: 0;
+//   width: 100vw; // Ocupa todo el ancho visual
+//   height: 80vh; // Ocupa todo el alto visual
   
-  // ¡TRUCO DE SENIOR CLAVE!
-  z-index: -1; // Lo pone detrás de todo el contenido
-  pointer-events: none; // Los clics pasan "a través" de él. 
-                        // Sin esto, ¡no podrías pulsar los botones!
+//   // ¡TRUCO DE SENIOR CLAVE!
+//   z-index: -1; // Lo pone detrás de todo el contenido
+//   pointer-events: none; // Los clics pasan "a través" de él. 
+//                         // Sin esto, ¡no podrías pulsar los botones!
+// }
+
+.confetti-canvas-bg {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1; /* o -1 si quieres detrás */
 }

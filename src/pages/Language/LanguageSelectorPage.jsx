@@ -2,7 +2,6 @@
 
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import  StreamerEffect  from "../../components/confetti/ConfettiEffect";
 import { MdOutlineCelebration } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 import "./LanguageSelectorPage.scss";
@@ -19,7 +18,6 @@ export default function LanguageSelectorPage() {
 
   return (
     <div className="language-page">
-      <StreamerEffect />
       <main className="language-page__content">
         
         <div className="language-page__header">
