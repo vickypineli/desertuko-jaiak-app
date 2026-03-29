@@ -7,11 +7,11 @@
   height: 100svh; // Altura fija a la pantalla
   display: flex;
   flex-direction: column;
-  
+  background-color: red;
 
 
   &__content {
-    //flex: 1; // Esto absorbe todo el espacio central
+    flex: 1; // Esto absorbe todo el espacio central
     display: flex;
     flex-direction: column;
     //overflow-y: auto; // Si el contenido crece, solo scrolea esta parte
