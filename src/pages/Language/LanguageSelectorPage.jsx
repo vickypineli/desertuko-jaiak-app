@@ -1,3 +1,5 @@
+//src/pages/Language/LanguageSelectorPage.jsx
+
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import  StreamerEffect  from "../../components/confetti/ConfettiEffect";

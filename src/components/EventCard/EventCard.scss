@@ -19,9 +19,13 @@
 }
 .event-card--now {
   transform: scale(1.02);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  border-left: 4px solid #ff4d4f;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.534);
+  //border-left: 4px solid #ff4d4f;
+    background-color: white;
+  //background: rgba($color-primary, 0.08);
+  border-radius: 12px;
 }
+
 .event-card__icon {
   width: 50px;
   height: 50px;
@@ -213,7 +217,7 @@
   bottom: 120%;
   right: 0;
 
-  background: #111;
+  background: #980d0d;
   color: #fff;
   font-size: 0.65rem;
 
@@ -235,10 +239,7 @@
     transform: translateY(0);
   }
 }
-.event-card--now {
-  background: rgba($color-primary, 0.08);
-  border-radius: 12px;
-}
+
 
 .event-card--now .event-card__icon {
   transform: scale(1.1);
