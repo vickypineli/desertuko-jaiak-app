@@ -1,7 +1,7 @@
 @use "../../styles/variables" as *;
 
 .language-page {
-  max-height: 85svh; /* ✅ viewport real en móvil moderno */
+  max-height: 80svh; /* ✅ viewport real en móvil moderno */
   width: 100%;
   display: flex;
   flex-direction: column;
