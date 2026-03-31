@@ -23,7 +23,7 @@ export default function Schedule() {
       <Header
         titleLeft={t("festivalName")}
         titleRight={t("festivalSubName")}
-        subtitle={t("scheduleSubtitle")}
+        //subtitle={t("scheduleSubtitle")}
         dates={festivalDates}
       />
 

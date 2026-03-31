@@ -5,7 +5,7 @@ import "./Header.scss";
 export default function Header({
   titleLeft,
   titleRight,
-  subtitle,
+  //subtitle,
   dates,
 }) {  
   return (
@@ -27,7 +27,7 @@ export default function Header({
           </h1>
         </div>
 
-        <p className="festival-header__subtitle">{subtitle}</p>
+        {/* <p className="festival-header__subtitle">{subtitle}</p> */}
         {/* <p className="festival-header__subtitle2">{subtitle2}</p> */}
 
         <div className="festival-header__dates">
