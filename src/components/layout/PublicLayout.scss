@@ -4,7 +4,7 @@
 
 
 .page-layout {
-  height: 100svh; // Altura fija a la pantalla
+  height: 100svh; 
   display: flex;
   flex-direction: column;
 
@@ -14,7 +14,6 @@
     flex: 1; // Esto absorbe todo el espacio central
     display: flex;
     flex-direction: column;
-    //overflow-y: auto; // Si el contenido crece, solo scrolea esta parte
   }
   &__footer {
     padding: 0.5rem;

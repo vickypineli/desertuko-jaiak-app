@@ -1,6 +1,5 @@
 // src/components/layout/AppLayout.jsx
 import React from "react";
-// Quitamos import { Outlet } from "react-router-dom"; porque no hace falta aquí
 import BottomNav from "./BottonNav";
 import "./AppLayout.scss"; 
 

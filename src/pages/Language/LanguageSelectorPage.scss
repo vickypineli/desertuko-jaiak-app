@@ -43,7 +43,7 @@
 .language-page__subtitle {
   font-family: $font-heading;
   font-weight: 700;
-  font-size: clamp(1.25rem, 5vw, 2.2rem);
+  font-size: clamp(2rem, 5vw, 2.2rem);
 }
 
 .language-page__title {
@@ -57,7 +57,7 @@
 /* IMAGEN */
 
 .language-page__image {
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
 
 }
@@ -96,7 +96,7 @@
 
   width: 100%;
 
-  padding: 1rem 1.25rem;
+  padding: 1rem 2.5rem;
   font-size: clamp(1rem, 4vw, 1.2rem);
   font-weight: 700;
 
@@ -139,8 +139,10 @@
 .lang-btn--active::after {
   content: "✓";
   position: absolute;
-  right: 1rem;
+  //right: 10rem;
+  left:  1rem;
   font-weight: 700;
+ 
 }
 
 /* ========================= */
