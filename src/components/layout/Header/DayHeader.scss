@@ -5,7 +5,7 @@
 .day-header {
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 5;
 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -31,9 +31,9 @@
 
     border-radius: 50%;
     border: none;
-    background: $color-bg;
+    background:transparent;
     cursor: pointer;
-    transition: transform 0.15s;
+    transition: transform 0.05s;
 
     span {
       font-size: 18px;

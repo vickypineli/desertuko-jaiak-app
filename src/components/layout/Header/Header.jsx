@@ -11,8 +11,8 @@ export default function Header({
   return (
     <header className="festival-header">
 
-      <div className="festival-header__blob festival-header__blob--top" />
-      <div className="festival-header__blob festival-header__blob--bottom" />
+      {/* <div className="festival-header__blob festival-header__blob--top" />
+      <div className="festival-header__blob festival-header__blob--bottom" /> */}
 
       <div className="festival-header__content">
 
